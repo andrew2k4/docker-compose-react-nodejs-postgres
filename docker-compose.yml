@@ -40,3 +40,6 @@ services:
             - "${CLIENT_PORT_HOST:-4172}:4173"
         depends_on:
             - server
+            
+volumes:
+    db-data:
